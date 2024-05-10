@@ -1,0 +1,42 @@
+.element {
+    color: #fff;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.static {
+    position: static;
+    background-color: darkcyan;
+}
+
+.relative {
+    position: relative;
+    left: 100px;
+    background-color: black;
+}
+
+.absolute {
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    background-color: black;
+}
+
+.relative-com-filho {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(214, 212, 212);
+}
+
+.absolute-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(214, 212, 100);
+}
